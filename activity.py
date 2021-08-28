@@ -39,8 +39,8 @@ class ActivityEntry:
         """get time entry dict"""
         return {
             "activity" : self.activity_name,
-            "start_time": self.start_time.strftime("%Y-m-%d %H:%M:%S"),
-            "end_time": self.end_time.strftime("%Y-m-%d %H:%M:%S"),
+            "start_time": self.start_time.strftime("%Y-%m-%d %H:%M:%S"),
+            "end_time": self.end_time.strftime("%Y-%m-%d %H:%M:%S"),
             "days": self.days,
             "hours": self.hours,
             "minutes": self.minutes,
